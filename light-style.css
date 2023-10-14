@@ -58,3 +58,7 @@ p{
     animation-duration: 0.3s;
     animation-direction: alternate;
   }
+
+::-webkit-scrollbar{
+    display: none;
+}
