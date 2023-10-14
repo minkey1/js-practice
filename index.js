@@ -12,11 +12,17 @@ const container = document.getElementsByClassName("theme-container")[0];
 const themeIcon = document.getElementById("theme-icon");
 container.addEventListener("click", setTheme);
 
+document.body.style.transition = "none";
+
 if (theme === "dark") {
     setDark();
   } else {
     setLight();
   }
+
+  setTimeout(() => {
+    document.body.style.transition = '';
+  }, 100);
 
 function setTheme() {
 
