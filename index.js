@@ -22,7 +22,7 @@ if (theme === "dark") {
 
   setTimeout(() => {
     document.body.style.transition = '';
-  }, 100);
+  }, 1000);
 
 function setTheme() {
 
