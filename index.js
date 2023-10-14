@@ -15,7 +15,7 @@ container.addEventListener("click", setTheme);
 if (theme === "dark") {
     setDark();
   } else {
-    setlight();
+    setLight();
   }
 
 function setTheme() {
