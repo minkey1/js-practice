@@ -2,6 +2,7 @@ body{
     padding: 0;
     margin: 0;
     background-color: black;
+    color: white;
     transition: background-color 0.3s, color 0.3s;
 }
 
@@ -14,10 +15,6 @@ body{
     transition: color 0.3s;
 }
 
-p{
-    color: white;
-    transition: color 0.3s;
-}
 
 .theme-container-container {
     align-items: end;
