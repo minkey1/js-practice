@@ -1,0 +1,62 @@
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.circle-container{
+    display: flex;
+    position: absolute;
+    z-index: -1;
+    padding: 0;
+    margin: 0;
+}
+
+.circle{
+    width: 121px;
+    height: 121px;
+    top: -61px;
+    left: -148px;
+    filter: blur(75px);
+    border-radius: 50%;
+    padding: 0;
+    margin: 0;
+}
+
+.red{
+    position: absolute;
+    background: #FF0D6A;
+}
+
+.blue{
+    position: absolute;
+    background: #0500FF;
+    left: -57px;
+}
+
+.green{
+    position: absolute;
+    background: #00FFE0;
+    left: 12px;
+}
+
+.startup{
+    position: relative;
+    padding-left: 15px;
+    padding-bottom: 30px;
+
+}
+
+.blocks{
+    position: relative;
+    padding-left: 12px;
+    padding-bottom: 30px;
+
+}
+
+.start{
+    opacity: 0.4;
+    position: relative;
+
+}
